@@ -1,2 +1,5 @@
-echo "This is Addition"
-echo "Sample from Git"
+echo $1
+echo $2
+exit
+shift;shift
+echo $@
